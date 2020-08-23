@@ -1,0 +1,72 @@
+hw1.css
+body {
+	display: block;
+	font-family: "Times New Roman";
+	font: 125%;
+}
+header {
+	height: 120px;
+   background-image: url(http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg);
+   background-size: cover;
+}
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+    font-size: 25px;
+}
+nav a {
+	width: 120px;
+	height: 30px;
+	border-radius: 10px;
+	display: inline-block;
+	margin-right: 230px;
+    font-size: 20px;
+    text-decoration: none;
+   padding: outset 0px green;
+    text-align: center;
+
+}
+a:link {
+	color: black;
+}
+a:active {
+	background: #ffffff;
+}
+a:hover {
+	background: #ffffff;
+}
+h2 { 
+	color: #213088;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.image{
+	height: 100px;
+	width: 150px;
+	border: 2px outset black;
+	display: inline-block;
+	float: left;
+	margin: 20px;
+
+}
+.left{
+	width: 200px;
+	height: 75%;
+	text-align: center;
+	display: inline-block;
+	
+	background: green;
+	position: fixed;
+
+}
+
+.right {
+	width: 86.5%;
+	float: right;
+	background: #cbd1d4;
+	padding: 5px;
+}
+
+
+
